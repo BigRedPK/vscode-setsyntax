@@ -25,11 +25,9 @@ export function activate(context: vscode.ExtensionContext) {
     //     vscode.window.showInformationMessage('Hello World!');
     // });
 
-    let disposable = vscode.commands.registerCommand('extension.setSyntax', () => {
+    context.subscriptions.push(vscode.commands.registerCommand('extension.setSyntax', () => {
         vscode.commands.executeCommand('workbench.action.editor.changeLanguageMode')
-    });
-
-    context.subscriptions.push(disposable);
+    }));
 }
 
 // this method is called when your extension is deactivated

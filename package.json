@@ -2,7 +2,7 @@
     "name": "set-syntax",
     "displayName": "Set Syntax",
     "description": "Sublimes Set Syntax alias for Language Mode",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "NA",
     "engines": {
         "vscode": "^1.5.0"
@@ -15,10 +15,11 @@
     ],
     "main": "./out/src/extension",
     "contributes": {
-        "commands": [{
-            "command": "extension.setSyntax",
-            "title": "Set Syntax"
-        }]
+        "commands": [
+            {
+                "command": "extension.setSyntax",
+                "title": "ss (Set Syntax)"
+            }]
     },
     "scripts": {
         "vscode:prepublish": "tsc -p ./",

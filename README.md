@@ -1,6 +1,6 @@
-# set-syntax README
+# set-syntax
 
-This is the README for your extension "set-syntax". After writing up a brief description, we recommend including the following sections.
+TODO
 
 ## Features
 
